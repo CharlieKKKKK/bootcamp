@@ -1,4 +1,3 @@
-package exercise;
 
 public class ABC20231121 {
   public static void main(String[]args){
