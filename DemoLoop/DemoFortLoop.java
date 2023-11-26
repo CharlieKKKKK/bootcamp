@@ -133,15 +133,41 @@ public class DemoFortLoop {
     // sum up odd number from 0 (0-100) before the sum reaching 200.
     // Finally, the sum must be <= 200
     // the loop shoud be ended at which number of i?
- sum = 0;
- for (int i = 0; i < 101 ; i++ ) {
-  if (i % 2 == 0 ) {
-   continue;  }{
-    if (sum >201){
-      break;
+    int m = 0;
+    int num = 0;
+    for (int i = 0; i < 101; i++) {
+      // skip even number
+      if (i % 2 == 0) {
+        continue;
+      }
+      // add up odd number
+      m += i;
+      // check if sum > 200, if yes, exit loop
+      if (m > 200) {
+        m -= i;
+        break;
+      }
+      num = i;
     }
-   }sum += i;
- }
-     System.out.println("i=" + i + ",sum=" + sum );
+    System.out.println("sum=" + m + ", i=" + num);
+
+    String str = " abc pol ijk def xyz";
+    char target = 'f';
+    int n = 0;
+    boolean isFound = false;
+    for (int i = 0; i < str.length(); i++) {// charAt(i)
+      if (str.charAt(i) == target) {
+        n = i + 1;
+        isFound = true;
+        break;
+      }
+    }
+
+    if (isFound) {
+      System.out.println("Found " + target + " at the " + n + "th character");
+    } else {
+      System.out.println("Not found");
+    }
+
   }
 }

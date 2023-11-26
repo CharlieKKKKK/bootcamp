@@ -15,17 +15,18 @@ public class JavaQuest2 {
       System.out.println("a is equals to 9");
     } else if (a < 9 && a >= 0) {
       System.out.println("a is between 0 and 8");
-      // code here
+    } else if (a > 9) {
+      System.out.println("a > 9");
     } else {
       System.out.println("a < 0");
     }
 
     String str = "I love Java. I love coding";
-    if (!(str.length() == 27)) { // code here. Fix the bug.
+    if (str.length() == 27) { // code here. Fix the bug.
       System.out.println("str length=27");
-    } else if () { // add the condition
+    } else if (str.length() < 27) { // add the condition
       System.out.println("str length < 27");
-    } else if () { // complete the code
+    } else if (str.length() > 27) { // complete the code
       System.out.println("str length > 27");
     }
 
