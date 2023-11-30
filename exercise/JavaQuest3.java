@@ -32,9 +32,44 @@ public class JavaQuest3 {
     switch (month) {
       case 1:
         MonthOfName = "January";
-        // Code here
+        number_Of_DaysInMonth = 31;
       case 2:
         MonthOfName = "February";
+
+        if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+          number_Of_DaysInMonth = 29;
+        } else {number_Of_DaysInMonth = 28;}
+      case 3:
+        MonthOfName = "March";
+        number_Of_DaysInMonth = 31;
+      case 4:
+        MonthOfName = "April";
+        number_Of_DaysInMonth = 30;
+      case 5:
+        MonthOfName = "May";
+        number_Of_DaysInMonth = 31;
+      case 6:
+        MonthOfName = "June";
+        number_Of_DaysInMonth = 30;
+      case 7:
+        MonthOfName = "July";
+        number_Of_DaysInMonth = 31;
+      case 8:
+        MonthOfName = "August";
+        number_Of_DaysInMonth = 31;
+      case 9:
+        MonthOfName = "September";
+        number_Of_DaysInMonth = 30;
+      case 10:
+        MonthOfName = "October";
+        number_Of_DaysInMonth = 31;
+      case 11:
+        MonthOfName = "November";
+        number_Of_DaysInMonth = 30;
+      case 12:
+        MonthOfName = "December";
+        number_Of_DaysInMonth = 31;
+
         // The February has 29 days: (Every 4 years and the year cannot divded by 100)
         // or The year can divided by 400
         // otherwise the February should have 28 days only
