@@ -1,6 +1,7 @@
 package DemoArray;
 
 public class CharlieMethod {
+  
   //main -> method name
   //pulic -> or private
   //static method -> tool

@@ -56,7 +56,7 @@ public class Demostring {
 
       //what if we always get the last character of the String
       //length() charAt()
- s1 = "Cahrlie";
+ s1 = "Charlie";
 //apptoach 1
       int lastCharIndex = s1.length()-1;
       char lastChar = s1.charAt(lastCharIndex);
