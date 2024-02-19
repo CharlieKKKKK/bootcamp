@@ -15,17 +15,15 @@ public class JavaQuest6 {
     int A1 = 1;
     int A2 = 1;
     int[] arr = new int[15];
-    int idx =0;
+    int idx = 0;
     arr[idx++] = A1;
     while (idx < 15) {
-      sum=A1+A2;
-      A1=A2;
+      sum = A1 + A2;
+      A1 = A2;
       arr[idx++] = A2;
-      A2=sum;
+      A2 = sum;
     }
     System.out.println(Arrays.toString(arr));
-
-
 
   }
 }

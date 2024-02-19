@@ -20,7 +20,7 @@ public class CharlieMethod3 {
     String after = concatHello2(before);
 
     System.out.println("before= " + before); // abc
-    System.out.println("after" + after); // abchello
+    System.out.println("after= " + after); // abchello
 
 
   }

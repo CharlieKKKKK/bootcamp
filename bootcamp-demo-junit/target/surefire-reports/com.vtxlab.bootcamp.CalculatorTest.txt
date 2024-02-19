@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.vtxlab.bootcamp.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.662 s <<< FAILURE! - in com.vtxlab.bootcamp.CalculatorTest
+testAdd  Time elapsed: 0.66 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: execution exceeded timeout of 40 ms by 7 ms
+	at com.vtxlab.bootcamp.CalculatorTest.testAdd(CalculatorTest.java:93)
+
